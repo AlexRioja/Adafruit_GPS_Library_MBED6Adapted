@@ -7,3 +7,7 @@ Changes:
   -Serial has now moved to be BufferedSerial  
   -getc is now adapted to BufferedSerial.read() (the same with write())  
   -wait() changed to ThisThread::sleep_for()  
+  
+  
+  Found another project trying to do the same:  
+  -https://github.com/toyowata/adafruit-gps-v3-test/blob/main/MBed_Adafruit_GPS.cpp
