@@ -5,4 +5,5 @@ Adapted from -->https://os.mbed.com/users/fconboy/code/MBed_Adafruit-GPS-Library
 
 Changes:  
   -Serial has now moved to be BufferedSerial  
-  -getc is now adapted to BufferedSerial.read() (the same with write())
+  -getc is now adapted to BufferedSerial.read() (the same with write())  
+  -wait() changed to ThisThread::sleep_for()  
